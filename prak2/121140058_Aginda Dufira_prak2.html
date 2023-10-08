@@ -1,0 +1,104 @@
+<!-- Aginda Dufira - 121140058 -->
+<!-- Praktikum Pemrograman Web RB - Tugas 2 -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profil Saya</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <img class="img" src="foto.jpeg" alt="ini gambar">
+            <div class="side">
+                <h1>Aginda Dufira</h1>
+                <p>Mahasiswa Institut Teknologi Sumatera</p>
+            </div>
+        </header>
+        <nav class="nav">
+            <ul>
+                <li><a href="https://itera.ac.id">Kampus Saya</a></li>
+                <li><a href="https://if.itera.ac.id">Prodi Saya</a></li>
+                <li><a href="https://github.com/Firanda11">Github Saya</a></li>
+            </ul>
+        </nav>
+    <div class="content-container">
+        <div class="content-box">
+            <h2>About Me</h2>
+            <p>Nama saya adalah Aginda Dufira. Seorang mahasiswa Teknik Informatika ITERA yang sedang memperjuangkan gelar S.KOM.</p>
+            <div class="video-container">
+                <video src="video.mp4" width="300" controls></video>
+            </div>
+            
+        </div>
+        <div class="content-box">
+            <h2>Pengalaman Kerja</h2>
+            <table border="1" cellpadding="8">
+                <tr>
+                    <th rowspan="2">No</th>
+                    <th rowspan="2">Posisi</th>
+                    <th rowspan="2">Perusahaan</th>
+                    <th colspan="2">Nilai</th>
+                </tr>
+                <tr>
+                    <th>Mulai</th>
+                    <th>Selesai</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>PM</td>
+                    <td>SSF</td>
+                    <td>Awal Semester 7</td>
+                    <td>Akhir Semester 7</td>
+                    
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Intern</td>
+                    <td>Aria Company</td>
+                    <td>Sejak Lulus</td>
+                    <td>Masih Magang</td>
+                </tr>
+            </table>
+            
+            
+        </div>
+        <div class="content-box">
+            <h2>Hubungi Saya</h2>
+            <form>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Masukkan email Anda" style="width: 230px;">
+            </form>            
+            <form>
+                <p>Sudah ngopi?</p>
+                <label>
+                    <input type="radio" name="ngopi" value="DAH"> DAH
+                </label>
+                <label>
+                    <input type="radio" name="ngopi" value="LUM"> LUM
+                </label>
+            
+                <p>Ngeteh?</p>
+                <label>
+                    <input type="radio" name="ngeteh" value="MAU"> MAU
+                </label>
+                <label>
+                    <input type="radio" name="ngeteh" value="G dl"> G dl
+                </label>
+                <label>
+                    <input type="radio" name="ngeteh" value="SKIP"> SKIP
+                </label>
+            </form>
+            
+            <button style="margin-top: 20px;">KIRIM</button>
+        </div>
+    </div>
+    <div class="footer">
+        &copy; 2023 Aginda Dufira
+    </div>
+</body>
+</html>
